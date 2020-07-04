@@ -2,6 +2,12 @@ from typing import List
 
 
 def sort_array_by_parity(A: List[int]) -> List[int]:
-    input = [3, 1, 2, 4]
-    print("you made it")
-    return input
+    result = list()
+    odd = list()
+    for num in A:
+        if num % 2 == 0:
+            result.append(num)
+        else:
+            odd.append(num)
+    result.extend(odd)
+    return result
