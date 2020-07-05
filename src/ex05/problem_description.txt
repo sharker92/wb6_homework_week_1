@@ -1,17 +1,28 @@
-728. Self Dividing Numbers
+412. Fizz Buzz
 
-A self-dividing number is a number that is divisible by every digit it contains.
+Write a program that outputs the string representation of numbers from 1 to n.
 
-For example, 128 is a self-dividing number because 128 % 1 == 0, 128 % 2 == 0, and 128 % 8 == 0.
+But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
 
-Also, a self-dividing number is not allowed to contain the digit zero.
+Example:
 
-Given a lower and upper number bound, output a list of every possible self dividing number, including the bounds if possible.
+n = 15,
 
-Example 1:
-Input: 
-left = 1, right = 22
-Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]
-Note:
-
-The boundaries of each input argument are 1 <= left <= right <= 10000.
+Return:
+[
+    "1",
+    "2",
+    "Fizz",
+    "4",
+    "Buzz",
+    "Fizz",
+    "7",
+    "8",
+    "Fizz",
+    "Buzz",
+    "11",
+    "Fizz",
+    "13",
+    "14",
+    "FizzBuzz"
+]
