@@ -15,7 +15,7 @@ def test_title_to_number_example_02():
     assert output == title_to_number(input)
 
 
-def test_title_to_number_example_02():
+def test_title_to_number_example_03():
     input = "ZY"
     output = 701
 
