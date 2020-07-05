@@ -15,7 +15,7 @@ def test_is_power_of_two_example_02():
     assert output == is_power_of_two(input)
 
 
-def test_is_power_of_two_example_02():
+def test_is_power_of_two_example_03():
     input = 218
     output = False
 
