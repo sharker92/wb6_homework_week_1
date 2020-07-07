@@ -13,3 +13,17 @@ def test_single_number_example_02():
     output = 4
 
     assert output == single_number(input)
+
+
+def test_single_number_example_03():
+    input = [1]
+    output = 1
+
+    assert output == single_number(input)
+
+
+def test_single_number_example_04():
+    input = [1, 3, 1, -1, 3]
+    output = -1
+
+    assert output == single_number(input)
