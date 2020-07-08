@@ -2,15 +2,4 @@ from typing import List
 
 
 def flip_and_invert_image(A: List[List[int]]) -> List[List[int]]:
-    result = list()
-    row = len(A)
-    col = len(A[0])
-    for r in range(row):
-        temp = list()
-        for c in reversed(range(col)):
-            if A[r][c] == 1:
-                temp.append(0)
-            else:
-                temp.append(1)
-        result.append(temp)
-    return result
+    return [[1 if num == 0 else 0 for num in row[::-1]] for row in A]
