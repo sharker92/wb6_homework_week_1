@@ -25,7 +25,7 @@ def find_circle_num(M: List[List[int]]) -> int:
     return len(result)
 
 
-def is_friend(M: List[int], i: int) -> List[int]:
+def is_friend(M: List[List[int]], i: int) -> List[int]:
     circle = list()
     circle.append(i)
     for j, friend in enumerate(M[i]):
