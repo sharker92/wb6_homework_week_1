@@ -10,7 +10,6 @@ def longest_common_prefix(strs: List[str]) -> str:
                 if temp == strs[j][i]:
                     continue
                 else:
-                    print("here", i, j)
                     temp = ""
                     break
             if temp == "":
